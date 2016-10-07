@@ -12,9 +12,6 @@
 
     <artifactId>hakaton-webapp</artifactId>
     <packaging>war</packaging>
-    <properties>
-        <version.war.plugin>3.0.0</version.war.plugin>
-    </properties>
 
     <dependencies>
         <dependency>
@@ -37,6 +34,13 @@
                         </manifest>
                     </archive>
                 </configuration>
+            </plugin>
+            <!-- The WildFly plug-in deploys the WAR to a local WildFly container -->
+            <!-- To use, run: mvn package wildfly:deploy -->
+            <plugin>
+                <groupId>org.wildfly.plugins</groupId>
+                <artifactId>wildfly-maven-plugin</artifactId>
+                <version>${version.wildfly.maven.plugin}</version>
             </plugin>
         </plugins>
     </build>

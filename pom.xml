@@ -21,6 +21,13 @@
         <jackson.version>2.5.3</jackson.version>
         <junit.version>4.12</junit.version>
         <spring.data.version>2.5.4.RELEASE</spring.data.version>
+        <!-- JBoss dependency versions -->
+        <version.wildfly.maven.plugin>1.0.2.Final</version.wildfly.maven.plugin>
+
+        <!-- Define the version of the JBoss BOMs we want to import to specify
+            tested stacks. -->
+        <version.jboss.bom>10.1.0.Final</version.jboss.bom>
+        <version.war.plugin>3.0.0</version.war.plugin>
     </properties>
 
     <dependencyManagement>
@@ -94,6 +101,14 @@
                 <artifactId>spring-boot-starter-test</artifactId>
                 <version>${spring.boot.version}</version>
                 <scope>test</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>org.wildfly.bom</groupId>
+                <artifactId>wildfly-javaee7-with-tools</artifactId>
+                <version>${version.jboss.bom}</version>
+                <type>pom</type>
+                <scope>import</scope>
             </dependency>
         </dependencies>
     </dependencyManagement>
