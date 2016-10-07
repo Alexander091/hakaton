@@ -68,7 +68,7 @@
                                     <classpathPrefix>WEB-INF/lib/</classpathPrefix>
                                 </manifest>
                             </archive>
-                            <warName>ROOT</warName>
+                            <warName>hakaton</warName>
                         </configuration>
                     </plugin>
                 </plugins>
