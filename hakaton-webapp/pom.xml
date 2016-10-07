@@ -57,7 +57,7 @@
                     <plugin>
                         <artifactId>maven-war-plugin</artifactId>
                         <configuration>
-                            <outputDirectory>../deployments</outputDirectory>
+                            <outputDirectory>deployments</outputDirectory>
                             <archive>
                                 <manifest>
                                     <addClasspath>true</addClasspath>
