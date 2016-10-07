@@ -8,9 +8,9 @@ import org.springframework.context.annotation.Configuration;
 /**
  * Created by alexander on 06.10.16.
  */
-//@Configuration
-//@ComponentScan
-//@EnableAutoConfiguration
+@Configuration
+@ComponentScan
+@EnableAutoConfiguration
 public class Application {
 
     public static void main(String[] args) {
