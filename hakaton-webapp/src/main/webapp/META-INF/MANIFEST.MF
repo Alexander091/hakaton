@@ -1,2 +1,38 @@
 Manifest-Version: 1.0
+Class-Path: WEB-INF/lib/hakaton-web-1.0-SNAPSHOT.jar WEB-INF/lib/sprin
+ g-webmvc-4.3.3.RELEASE.jar WEB-INF/lib/spring-aop-4.3.3.RELEASE.jar W
+ EB-INF/lib/spring-beans-4.3.3.RELEASE.jar WEB-INF/lib/spring-core-4.3
+ .3.RELEASE.jar WEB-INF/lib/commons-logging-1.2.jar WEB-INF/lib/spring
+ -expression-4.3.3.RELEASE.jar WEB-INF/lib/spring-web-4.3.3.RELEASE.ja
+ r WEB-INF/lib/spring-boot-autoconfigure-1.4.1.RELEASE.jar WEB-INF/lib
+ /spring-boot-1.4.1.RELEASE.jar WEB-INF/lib/spring-context-4.3.3.RELEA
+ SE.jar WEB-INF/lib/spring-data-rest-webmvc-2.5.4.RELEASE.jar WEB-INF/
+ lib/spring-data-rest-core-2.5.4.RELEASE.jar WEB-INF/lib/spring-hateoa
+ s-0.20.0.RELEASE.jar WEB-INF/lib/spring-plugin-core-1.2.0.RELEASE.jar
+  WEB-INF/lib/evo-inflector-1.2.1.jar WEB-INF/lib/jackson-databind-2.5
+ .3.jar WEB-INF/lib/jackson-core-2.5.3.jar WEB-INF/lib/jackson-annotat
+ ions-2.6.7.jar WEB-INF/lib/jcl-over-slf4j-1.7.21.jar WEB-INF/lib/spri
+ ng-data-jpa-1.10.4.RELEASE.jar WEB-INF/lib/spring-data-commons-1.12.4
+ .RELEASE.jar WEB-INF/lib/spring-orm-4.2.8.RELEASE.jar WEB-INF/lib/spr
+ ing-jdbc-4.2.8.RELEASE.jar WEB-INF/lib/spring-tx-4.2.8.RELEASE.jar WE
+ B-INF/lib/aspectjrt-1.8.9.jar WEB-INF/lib/hibernate-validator-5.2.3.F
+ inal.jar WEB-INF/lib/validation-api-1.1.0.Final.jar WEB-INF/lib/class
+ mate-1.1.0.jar WEB-INF/lib/hibernate-core-5.2.3.Final.jar WEB-INF/lib
+ /hibernate-jpa-2.1-api-1.0.0.Final.jar WEB-INF/lib/javassist-3.20.0-G
+ A.jar WEB-INF/lib/antlr-2.7.7.jar WEB-INF/lib/geronimo-jta_1.1_spec-1
+ .1.1.jar WEB-INF/lib/jandex-2.0.0.Final.jar WEB-INF/lib/dom4j-1.6.1.j
+ ar WEB-INF/lib/hibernate-commons-annotations-5.0.1.Final.jar WEB-INF/
+ lib/cdi-api-1.2.jar WEB-INF/lib/javax.inject-1.jar WEB-INF/lib/spring
+ -boot-starter-data-jpa-1.4.1.RELEASE.jar WEB-INF/lib/spring-boot-star
+ ter-1.4.1.RELEASE.jar WEB-INF/lib/spring-boot-starter-logging-1.4.1.R
+ ELEASE.jar WEB-INF/lib/logback-classic-1.1.7.jar WEB-INF/lib/logback-
+ core-1.1.7.jar WEB-INF/lib/jul-to-slf4j-1.7.21.jar WEB-INF/lib/log4j-
+ over-slf4j-1.7.21.jar WEB-INF/lib/snakeyaml-1.17.jar WEB-INF/lib/spri
+ ng-boot-starter-aop-1.4.1.RELEASE.jar WEB-INF/lib/aspectjweaver-1.8.9
+ .jar WEB-INF/lib/spring-boot-starter-jdbc-1.4.1.RELEASE.jar WEB-INF/l
+ ib/tomcat-jdbc-8.5.5.jar WEB-INF/lib/tomcat-juli-8.5.5.jar WEB-INF/li
+ b/javax.transaction-api-1.2.jar WEB-INF/lib/spring-aspects-4.3.3.RELE
+ ASE.jar WEB-INF/lib/h2-1.4.192.jar WEB-INF/lib/spring-orm-4.3.3.RELEA
+ SE.jar WEB-INF/lib/spring-jdbc-4.3.3.RELEASE.jar WEB-INF/lib/spring-t
+ x-4.3.3.RELEASE.jar
 
