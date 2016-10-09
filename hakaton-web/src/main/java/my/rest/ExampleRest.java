@@ -35,6 +35,7 @@ public class ExampleRest {
     @RequestMapping(value= "/get", method = RequestMethod.GET, produces= MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<ExampleEntity> get(){
         ExampleEntity entity = exampleService.getEntity();
+        entity.setName("Name");
         return new ResponseEntity<ExampleEntity>(entity,HttpStatus.OK);
     }
 

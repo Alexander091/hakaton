@@ -18,15 +18,8 @@ import java.util.List;
  * Created by alexander on 08.10.16.
  */
 @Repository
-public class ExampleDaoImpl extends SimpleJpaRepository<ExampleEntity, Long> implements ExampleDao {
+public class ExampleDaoImpl implements ExampleDao {
 
-    public ExampleDaoImpl(JpaEntityInformation<ExampleEntity, ?> entityInformation, EntityManager entityManager) {
-        super(entityInformation, entityManager);
-    }
-
-    public ExampleDaoImpl(Class<ExampleEntity> domainClass, EntityManager em) {
-        super(domainClass, em);
-    }
 
     public ExampleEntity getEntity() {
         return new ExampleEntity();
